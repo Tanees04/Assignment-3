@@ -19,8 +19,16 @@
         }
         .form-control-transparent {
             background-color: transparent !important;
-            border: none !important;
-            box-shadow: none !important;
+            
+            margin-top:2%;
+            border-right: none !important;
+            border-top: none !important;
+            border-left: none !important;
+            border-radius: 0;
+            border-bottom: 2px solid white;
+            align-items: center;
+            width:12vh;
+            box-shadow: 0px 7px 17px rgb(26,22,22);
           }
         .img-fluid {
             width: 100%;
@@ -140,7 +148,7 @@
           </div>
     </section>
     <section id="contact" class="bg-black">
-        <div class="container text-white bg-black">
+        <div class="container text-white bg-black ">
           <br>
           <h2 class="text-center">Contact Us</h2>
           <form>
@@ -156,13 +164,15 @@
               <label for="message">Message</label>
               <textarea class="form-control form-control-transparent" id="message" rows="3" required></textarea>
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="button" class="btn btn-outline-danger " style="margin-top:2%; margin-left:47%;" >Submit</button>
+            <br>
+            <br>
           </form>
         </div>
       </section>
       
-      <footer>
-          <div class="container">
+      <footer class="bg-black">
+          <div class="container bg-black text-white">
               <p>&copy; 2022 Fictional Company. All rights reserved.</p>
           </div>
       </footer>
