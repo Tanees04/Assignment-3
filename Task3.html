@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            
+        }
+        .container-fluid{
+            margin: 0;
+            padding: 0;
+            
+            background-color: black;
+            width:100%
+        }
+        .img-fluid {
+            width: 100%;
+            padding: 0;
+            margin:0;
+            
+            height: auto;
+          }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <header>
+    <nav class="navbar navbar-expand-lg navbar-dark  bg-black ">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+           
+        </div>
+      </div>
+    </nav>
+    </header>
+   
+   
+    <!-- <div class="container-fluid">
+        
+        <img src="s.jpg" class="img-fluid" alt="Responsive Image">
+         
+      </div> -->
+      <!-- <div class="container-fluid"> <div class="row">
+         <div class="col-12"> <div class="d-flex align-items-center"> 
+        <img src="s.jpg" class="img-fluid float-left mr-2" alt="Responsive Image">
+        <div >
+             <h1 class="text-white pe-lg-0 " >Delicious</h1> 
+            </div> 
+        </div> 
+    </div> </div> </div> -->
+    <div class="container-fluid"> 
+        <div class="row">
+         <div class="col-12"> <div class="position-relative">
+             <img src="s.jpg" class="img-fluid" alt="Responsive Image">
+              <div class="position-absolute top-50 start-50 translate-middle" style=" margin-left:20%; margin-bottom:55%;">
+                 <h1 style=" padding-left:25%" class="text-white ">Delicious</h1>
+                <p style=" color:bisque; ">A premium and authetic spaghetti restaurant</p>
+                <div class="d-flex mt-4" style="gap:0.5em"> <a role="button" class="btn btn-outline-light" style="flex-grow: 0.5; ">SEE MENU</a>
+                <a role="button" class="btn btn-outline-light" style="flex-grow: 0.5; ">BOOK TABLE</a>
+                 </div>
+                </div> </div> </div> </div> </div>
+
+    <!-- <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6 offset-md-6 text-right">
+            <h2>Delicious</h2>
+            <p>This is a sample text that describes the image.</p>
+          </div>
+          <div class="col-md-6">
+            <img src="s.jpg" class="img-fluid" alt="Responsive Image">
+          </div>
+        </div>
+      </div> -->
+
+        <br>
+        <section id="about">
+          <div class="container ">
+              <h2>About Us</h2>
+              <p>Fictional Company is a leading provider of innovative products and services. Our team of experts is dedicated to delivering exceptional customer experiences and meeting the evolving needs of our clients. We are committed to continuous improvement and strive to be the best in our industry. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati eaque facere, ipsum praesentium incidunt, hic beatae, aliquid deserunt voluptate minus quia itaque quidem. Fuga, consequuntur ad odio reprehenderit quam cumque mollitia officia sunt doloremque, pariatur nobis maxime voluptatem debitis veritatis temporibus. Reprehenderit amet tenetur atque corporis suscipit magni. Ad, quidem?</p>
+          </div>
+      </section>
+      
+      <section id="services">
+          <div class="container">
+              <h2>Our Services</h2>
+              <div class="row">
+                  <div class="col-md-4">
+                      <h3>Product 1</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3>Product 2</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                  </div>
+                  <div class="col-md-4">
+                      <h3>Product 3</h3>
+                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis ipsum. Praesent mauris. Fusce nec tellus sed augue semper porta. Mauris massa. Vestibulum lacinia arcu eget nulla.</p>
+                  </div>
+              </div>
+          </div>
+      </section>
+      
+
+      <section id="contact">
+          <div class="container">
+              <h2>Contact Us</h2>
+              <form>
+                  <div class="form-group">
+                      <label for="name">Name</label>
+                      <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="email">Email</label>
+                      <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+                  </div>
+                  <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="3" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+          </div>
+      </section>
+      
+      <footer>
+          <div class="container">
+              <p>&copy; 2022 Fictional Company. All rights reserved.</p>
+          </div>
+      </footer>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
